@@ -1,6 +1,6 @@
 import SwiperCore, { A11y, Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Row, Col, Container } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import { Image } from 'react-bootstrap'
 
 // Import Swiper styles
@@ -19,7 +19,7 @@ const Body = () => {
     return (
         <div className='py-4'>
             <Row className='px-2 mx-auto'>
-                <Col>
+                <Col sm={6} md={12}>
                     <Swiper
                         loop={true}
                         loopFillGroupWithBlank={true}
